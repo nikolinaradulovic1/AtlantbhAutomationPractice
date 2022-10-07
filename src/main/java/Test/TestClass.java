@@ -38,7 +38,7 @@ public void enterUserData(){
     @Test
     public void verifyThatUserCanRegister(){
         homePage.clickOnSignIn();
-        signIn.enterEmail("nikolina12347@gmail.com");
+        signIn.enterEmail("nikolinaa12347@gmail.com");
         signIn.clickOnCreateAnAccountButton();
         enterUserData();
         Assert.assertEquals(driver.getCurrentUrl(),"http://automationpractice.com/index.php?controller=my-account");
